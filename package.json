@@ -115,7 +115,7 @@
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm sa git-commit-verify",
-    "pre-commit": "cd frontend && pnpm typecheck && pnpm lint && git diff --exit-code"
+    "pre-commit": "pnpm typecheck && pnpm lint && git diff --exit-code"
   },
   "website": "https://github.com/itwanger/PaiSmart.git"
 }
